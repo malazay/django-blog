@@ -1,12 +1,12 @@
 # django-blog
 A very simple blog using Python and Django
 
-<h1>Requirements
+<h1>Requirements<h1>
 * Python 2.7.X
 * Pip
 * Virtual env (Optional) -  http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
-<h1>Installation
+<h1>Installation<h1>
 * Activate Virtual env (Optional) - http://docs.python-guide.org/en/latest/dev/virtualenvs/
 ```sh
 $ Git clone https://github.com/malazay/django-blog.git
@@ -16,12 +16,12 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
-<h1>Run locally
+<h1>Run locally<h1>
 * Activate Virtual env (Optional) - http://docs.python-guide.org/en/latest/dev/virtualenvs/
 ```sh
 $ python manage.py runserver
 ```
-<h1>Possible errors
+<h1>Possible errors<h1>
 * If the css is not loaded properly and you are on Mac OS X El capitan, you might need to give the static folder some access level:
 ```sh
 $ sudo chmod -R 755 /django-blog/blog/static 
